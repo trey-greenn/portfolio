@@ -7,27 +7,22 @@ const inter = Inter({ subsets: ['latin'] })
 
 
 export default function Home() {
-  const [data, setData] = React.useState([]);
-
-  React.useEffect(() => {
-    fetch('/api/data')
-      .then(response => response.json())
-      .then(data => setData(data));
-  }, []);
+  
   return (
     <main
-      className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
     >
-      
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700/10 after:dark:from-sky-900 after:dark:via-[#0141ff]/40 before:lg:h-[360px]">
-        <h1 className="font-bold text-2xl">William Trey Green</h1>
+      <div className="relative flex justify-center p-8 lace-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700/10 after:dark:from-sky-900 after:dark:via-[#0141ff]/40 before:lg:h-[360px]">
+        <h1 className="font-bold text-2xl text-center">William Trey Green</h1>
  
         
       </div>
-      <div className="rounded-lg border-white mt-12"> 
+      <div className="grid grid-cols-5"> 
       
-      <div className="port_website grid grid-cols-2 border border-gray-600 rounded-lg p-4 ring-inset ring bg-gray-900">
+      <div className="col-start-2 col-end-5 ">
+
+      
+      <div className="port_website grid grid-cols-2 rounded-lg p-4  bg-sky-900">
         <Image
           src="/Untitled.png"
           alt="Guess That Clue"
@@ -48,10 +43,10 @@ export default function Home() {
         </Link>        
       </div>
         
-      </div>
-      <div className="rounded-lg border-white mt-12"> 
       
-      <div className="port_website grid grid-cols-2 border border-gray-600 rounded-lg p-4 ring-inset ring bg-gray-900">
+      <div className="rounded-lg border-white mt-12 col-start-2 col-end-5"> 
+      
+      <div className="port_website grid grid-cols-2 rounded-lg p-4  bg-green-900">
         <Image
           src="/Untitled.png"
           alt="Guess That Clue"
@@ -71,9 +66,9 @@ export default function Home() {
       </div>
         
       </div>
-      <div className="rounded-lg border-white mt-12"> 
+      <div className="rounded-lg border-white mt-12 col-start-2 col-end-5"> 
       
-      <div className="port_website grid grid-cols-2 border border-gray-600 rounded-lg p-4 ring-inset ring bg-gray-900">
+      <div className="port_website grid grid-cols-2  rounded-lg p-4  bg-amber-900">
         <Image
           src="/Untitled.png"
           alt="Guess That Clue"
@@ -93,9 +88,9 @@ export default function Home() {
       </div>
         
       </div>
-      <div className="rounded-lg border-white mt-12"> 
+      <div className="rounded-lg border-white mt-12 col-start-2 col-end-5"> 
       
-      <div className="port_website grid grid-cols-2 border border-gray-600 rounded-lg p-4 ring-inset ring bg-gray-900">
+      <div className="port_website grid grid-cols-2   rounded-lg p-4 bg-red-900">
         <Image
           src="/Untitled.png"
           alt="Guess That Clue"
@@ -116,8 +111,8 @@ export default function Home() {
         
       </div>
       
-
-      
+      </div>
+      </div>
     </main>
   )
 }
