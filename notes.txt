@@ -1,0 +1,5 @@
+Client vs Server Components
+
+Use Client Components on the outer edge of the tree
+
+What is asynchronous

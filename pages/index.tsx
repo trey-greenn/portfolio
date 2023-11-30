@@ -88,28 +88,7 @@ export default function Home() {
       </div>
         
       </div>
-      <div className="rounded-lg border-white mt-12 col-start-2 col-end-5"> 
-      
-      <div className="port_website grid grid-cols-2   rounded-lg p-4 bg-red-900">
-        <Image
-          src="/Untitled.png"
-          alt="Guess That Clue"
-          width={180}
-          height={48}
-        
-        />
-        <Link href="https://gtc-navy.vercel.app/ ">
-          <h2 className="font-bold text-center">
-            Guess That Clue
-          </h2>
-          <p className="mt-6 mb-4 text-center">
-            You think you know business? If you were given data that painted the financial picture of a business. Would you be able to solve the riddle? Probably not. Want to give it a shot?
-          </p>
-          <p>Tech Stack : Next.Js, GraphQL, Typescript, Tailwindcss, Vercel </p>
-        </Link>        
-      </div>
-        
-      </div>
+
       
       </div>
       </div>
