@@ -12,7 +12,7 @@ export default function Home() {
     <main
     >
 
-      <div className="">
+      <div className="mt-24">
         <h1 className="font-bold text-2xl text-center">William Trey Green</h1>
  
         
@@ -31,14 +31,14 @@ export default function Home() {
           height={84}
         
         />
-        <Link href="https://mergacquilous.com ">
+        <Link href="https://mergaculious.vercel.app/home ">
           <h2 className="font-bold text-center">
             Mergacquilous
           </h2>
          
           <p className="text-center text-clip">
-            You think you know business? If you were given data that painted the financial picture of a business. Would you be able to solve the riddle? Probably not. Want to give it a shot?
-          </p>
+          It serves as a comprehensive hub for real-time economic updates, insightful analyses, and key financial indicators from around the globe. Stay ahead of the economy!
+             </p>
           
         </Link>        
       </div>
@@ -81,8 +81,7 @@ export default function Home() {
             The Open Chess
           </h2>
           <p className="text-center">
-            You think you know business? If you were given data that painted the financial picture of a business. Would you be able to solve the riddle? Probably not. Want to give it a shot?
-          </p>
+          An all-in-one online destination for chess enthusiasts of all levels, offering interactive learning tools, engaging gameplay options, and a comprehensive shop for high-quality chess products</p>
         </Link>        
       </div>
         
