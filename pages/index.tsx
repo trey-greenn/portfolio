@@ -26,13 +26,13 @@ export default function Home() {
             height={84}
           
           />
-          <Link href="https://mergaculious.vercel.app/home ">
+          <Link href="https://needgov.com ">
             <h2 className="font-bold text-center">
-              Mergacquilous
+              NeedGov
             </h2>
           
             <p className="text-center text-clip">
-            It serves as a comprehensive hub for real-time economic updates, insightful analyses, and key financial indicators from around the globe. Stay ahead of the economy!
+              The online directory for American Law and Services
               </p>
             
           </Link>        
@@ -47,9 +47,9 @@ export default function Home() {
             height={84}
           
           />
-          <Link href="https://gtc-navy.vercel.app/ ">
+          <Link href="https://businesswordle.com ">
             <h2 className="font-bold text-center">
-              Guess That Clue
+              Business Wordle
             </h2>
             <p className="text-center">
               You think you know business? If you were given data that painted the financial picture of a business. Would you be able to solve the riddle? Probably not. Want to give it a shot?
@@ -85,7 +85,7 @@ export default function Home() {
             height={84}
           
           />
-          <Link href="https://theopenchess.com ">
+          <Link href="hhttps://veery-seven.vercel.app">
             <h2 className="font-bold text-center ">
               Veezy
             </h2>
@@ -106,10 +106,11 @@ export default function Home() {
           />
           <Link href="https://theopenchess.com ">
             <h2 className="font-bold text-center ">
-              PostPanda
+              HousesNearWater
             </h2>
             <p className="text-center">
-            your budget-friendly gateway to reaching a vast audience with ease. Craft compelling, personalized messages at scale, ensuring your emails stand out in every inbox. </p>
+            Discover lakefront, oceanfront, riverfront, and canal homes for sale across all 50 states. Browse waterfront properties by state, city, or water body.
+          </p>
           </Link>        
         </div>
       </div>
