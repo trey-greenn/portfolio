@@ -172,8 +172,7 @@ export default function Home() {
           </Link>        
         </div>
       </div>
-    </div>
-    <div className="rounded-lg border-white mt-12 col-span-3 ">     
+      <div className="rounded-lg border-white mt-12 col-span-3 ">     
         <div className="port_website grid grid-flow-col grid-flow-row rounded-lg bg-green-900 place-items-center">
           <Image
             src="/Untitled.png"
@@ -192,6 +191,8 @@ export default function Home() {
           </Link>        
         </div>
       </div>
+    </div>
+
     </main>
   )
 }
