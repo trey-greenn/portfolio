@@ -57,6 +57,64 @@ export default function Home() {
           </Link>        
         </div>
       </div>
+      <div className="rounded-lg border-white mt-12 col-span-3 ">     
+        <div className="port_website grid grid-flow-col grid-flow-row rounded-lg bg-green-900 place-items-center">
+          <Image
+            src="/Untitled.png"
+            alt="Guess That Clue"
+            width={84}
+            height={84}
+          
+          />
+          <Link href="https://mlbwordle.com ">
+            <h2 className="font-bold text-center">
+              MLB Wordle
+            </h2>
+            <p className="text-center">
+              You think you know business? If you were given data that painted the financial picture of a business. Would you be able to solve the riddle? Probably not. Want to give it a shot?
+            </p>
+          </Link>        
+        </div>
+      </div>
+      <div className="rounded-lg border-white mt-12 col-span-3 ">     
+        <div className="port_website grid grid-flow-col grid-flow-row rounded-lg bg-green-900 place-items-center">
+          <Image
+            src="/Untitled.png"
+            alt="Guess That Clue"
+            width={84}
+            height={84}
+          
+          />
+          <Link href="https://ufcwordle.com ">
+            <h2 className="font-bold text-center">
+              UFC Wordle
+            </h2>
+            <p className="text-center">
+              You think you know business? If you were given data that painted the financial picture of a business. Would you be able to solve the riddle? Probably not. Want to give it a shot?
+            </p>
+          </Link>        
+        </div>
+      </div>
+      <div className="rounded-lg border-white mt-12 col-span-3 ">     
+        <div className="port_website grid grid-flow-col grid-flow-row rounded-lg bg-green-900 place-items-center">
+          <Image
+            src="/Untitled.png"
+            alt="Guess That Clue"
+            width={84}
+            height={84}
+          
+          />
+          <Link href="https://celebwordle.com ">
+            <h2 className="font-bold text-center">
+              Celeb Wordle
+            </h2>
+            <p className="text-center">
+              You think you know business? If you were given data that painted the financial picture of a business. Would you be able to solve the riddle? Probably not. Want to give it a shot?
+            </p>
+          </Link>        
+        </div>
+      </div>
+      
       <div className="rounded-lg border-white mt-12 col-span-3">   
         <div className="port_website grid grid-flow-col grid-flow-row rounded-lg bg-gradient-to-r from-green-900 bg-amber-900 place-items-center">
           <Image
@@ -104,7 +162,7 @@ export default function Home() {
             height={84}
           
           />
-          <Link href="https://theopenchess.com ">
+          <Link href="https://housesnearwater.com ">
             <h2 className="font-bold text-center ">
               HousesNearWater
             </h2>
@@ -115,6 +173,25 @@ export default function Home() {
         </div>
       </div>
     </div>
+    <div className="rounded-lg border-white mt-12 col-span-3 ">     
+        <div className="port_website grid grid-flow-col grid-flow-row rounded-lg bg-green-900 place-items-center">
+          <Image
+            src="/Untitled.png"
+            alt="Guess That Clue"
+            width={84}
+            height={84}
+          
+          />
+          <Link href="https://buffetai-seven.vercel.app/">
+            <h2 className="font-bold text-center">
+              Buffetai
+            </h2>
+            <p className="text-center">
+              You think you know business? If you were given data that painted the financial picture of a business. Would you be able to solve the riddle? Probably not. Want to give it a shot?
+            </p>
+          </Link>        
+        </div>
+      </div>
     </main>
   )
 }
